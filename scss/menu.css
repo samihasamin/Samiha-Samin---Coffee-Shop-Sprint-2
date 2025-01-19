@@ -1,0 +1,167 @@
+body {
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.navdiv {
+  background-color: #fff0ed;
+  padding: 0;
+  width: 100%;
+}
+
+.navbar {
+  background-color: #fff0ed;
+  padding: 0;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navdiv__logo {
+  margin-left: 20px;
+}
+
+.navdiv a {
+  text-decoration: none;
+  color: #393939;
+  display: inline-block;
+}
+
+.navdiv__heading {
+  font-size: 50px;
+}
+
+.navlist li {
+  margin-right: 0.9375rem;
+  padding: 1.25rem 1.25rem;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.navdiv__shop-now--blue {
+  color: #5bacc3;
+}
+
+#titlebox,
+#titlebox > h1 {
+  width: 18.75rem;
+  height: 12.5rem;
+  background-color: #393939;
+  color: white;
+  font-style: Open Sans Regular;
+  font-size: 3.75rem;
+  font-weight: 300;
+  font-family: Open Sans;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.p-box {
+  background-image: url(../assets/coffee-circle.jpg);
+  width: 100%;
+  height: 43.75rem;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.detailbox {
+  width: 300px;
+  height: 200px;
+  border: 5px solid #5bacc3;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.nitromenu {
+  width: 100%;
+  height: 5rem;
+  background-color: #393939;
+  text-align: center;
+}
+
+.nitromenu a {
+  text-decoration: none;
+  color: white;
+  font: Open Sans;
+}
+
+.nitromenu li {
+  display: inline-block;
+  margin: 1.25rem 0;
+  padding: 0.3125rem 1.25rem;
+  border-left: 4px solid #5bacc3;
+}
+
+h2 {
+  font-size: 3.75rem;
+  font-weight: 300;
+  text-align: center;
+  font-family: Open Sans;
+  padding-top: 20px;
+}
+
+h3 {
+  font-size: 2.0625rem;
+  font-weight: 300;
+  text-align: center;
+  font-family: Open Sans;
+}
+
+.hotdrinksmenu {
+  background-color: #fff0ed;
+}
+
+.hotdrinksmenu h3 {
+  padding-top: 1.25rem;
+}
+
+.description {
+  font-size: 1.125rem;
+  font-weight: 400;
+  font-style: italic;
+  font-family: Open Sans;
+  text-align: center;
+  padding-top: 1.25rem;
+  padding-bottom: 0.625rem;
+}
+
+.colddrinksmenu {
+  background-color: #f7f7f7;
+}
+
+.colddrinksmenu h3 {
+  padding-top: 1.25rem;
+}
+
+.pastriesmenu {
+  background-color: #fff0ed;
+}
+
+.price {
+  font-size: 1.125rem;
+  font-weight: 400;
+  font-family: Open Sans;
+  text-align: center;
+  color: #5bacc3;
+  padding-bottom: 1.25rem;
+} /*# sourceMappingURL=menu.css.map */
