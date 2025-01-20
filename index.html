@@ -12,57 +12,55 @@
   </head>
   <body>
     <header>
-      <div class="navdiv">
-        <div class="navbar">
-          <div class="navicon">
-            <a class="navdiv__logo" href="index.html"
-              ><img
-                src="./assets/coffee-beans-logo-and-footer.svg"
-                alt="cofee bean logo"
-            /></a>
-            <a href="#"><h3 class="navdiv__heading">nitro</h3></a>
-          </div>
-          <div class="navlist">
-            <ul>
-              <li>
-                <a class="navdiv__about" href="index.html">ABOUT</a>
-              </li>
-              <li><a class="navdiv__menu" href="./pages/menu.html">MENU</a></li>
-              <li>
-                <a class="navdiv__shop-now--blue" href="./pages/menu.html"
-                  >SHOP NOW</a
-                >
-              </li>
-            </ul>
-          </div>
+      <nav class="navbar">
+        <div class="navbar__brand">
+          <a class="navbar__logo" href="index.html"
+            ><img
+              src="./assets/coffee-beans-logo-and-footer.svg"
+              alt="cofee bean logo"
+          /></a>
+          <a href="#"><h3 class="navbar__heading">nitro</h3></a>
         </div>
-      </div>
-      <div class="mainnitro">
-        <div class="nitrocoffee">
-          <h1 class="nitrocoffee__title">Nitro Coffee</h1>
-          <p class="nitrocoffee__text">
-            Coffee is a brewed drink prepared from <br />roasted coffee beans,
-            the seeds of berries<br />from certain Coffea species.
-          </p>
-          <a href="./pages/menu.html"
-            ><button class="nitrocoffee__shopnow">
-              SHOP NOW
-              <div class="nitrocoffee__shopnow--border"></div></button
-          ></a>
+        <div class="navbar__list">
+          <ul>
+            <li>
+              <a class="navbar__link" href="index.html">ABOUT</a>
+            </li>
+            <li><a class="navbar__link" href="./pages/menu.html">MENU</a></li>
+            <li>
+              <a class="navbar__link--highlight" href="./pages/menu.html"
+                >SHOP NOW</a
+              >
+            </li>
+          </ul>
         </div>
-        <div class="nitrocoffee__coffee-bag">
-          <img
-            class="nitrocoffee__image"
-            src="./assets/coffeebeans-hero.png"
-            alt="coffee bag"
-          />
-        </div>
-      </div>
+      </nav>
     </header>
+    <section class="mainnitro">
+      <div class="nitrocoffee">
+        <h1 class="nitrocoffee__title">Nitro Coffee</h1>
+        <p class="nitrocoffee__text">
+          Coffee is a brewed drink prepared from <br />roasted coffee beans, the
+          seeds of berries<br />from certain Coffea species.
+        </p>
+        <a href="./pages/menu.html"
+          ><button class="nitrocoffee__shopnow">
+            SHOP NOW
+            <div class="nitrocoffee__shopnow--border"></div></button
+        ></a>
+      </div>
+      <div class="nitrocoffee__coffee-bag">
+        <img
+          class="nitrocoffee__image"
+          src="./assets/coffeebeans-hero.png"
+          alt="coffee bag"
+        />
+      </div>
+    </section>
     <section class="nitroproducts">
       <h2 class="nitroproducts__title">Our Products</h2>
-      <div class="nitroproducts__card">
-        <div class="nitroproducts__card-list">
+      <div class="nitroproducts__cardgroup">
+        <div class="nitroproducts__card">
           <div class="nitroproducts__image">
             <img src="./assets/coffeebeans.png" alt="coffee beans" />
           </div>
@@ -74,7 +72,7 @@
             <div class="nitroproducts__price"><p>$19</p></div>
           </div>
         </div>
-        <div class="nitroproducts__card-list">
+        <div class="nitroproducts__card">
           <div class="nitroproducts__image">
             <img src="./assets/coldbrew.png" alt="cold brew" />
           </div>
@@ -86,7 +84,7 @@
             <div class="nitroproducts__price"><p>$5</p></div>
           </div>
         </div>
-        <div class="nitroproducts__card-list">
+        <div class="nitroproducts__card">
           <div class="nitroproducts__image">
             <img src="./assets/inhousebrew.png" alt="in-house brew" />
           </div>
@@ -107,7 +105,7 @@
           <div class="nitrocoffee__viewall--border"></div></button
       ></a>
     </section>
-    <section class="learnmore">
+    <section class="coffee-difference">
       <div class="weredifferent">
         <div class="weredifferent__title"><h1>We're Different</h1></div>
         <div class="weredifferent__description">
@@ -132,14 +130,14 @@
         <div class="weredifferent__background--border"></div>
       </div>
     </section>
-    <div class="discount">
-      <p class="discount__banner">
+    <div class="discountcodesection">
+      <p class="discountcodesection__banner">
         Get 20% off your first order with code: <span>FirstNitro</span>
       </p>
     </div>
     <footer class="footer">
       <img
-        class="footercoffeebean--left"
+        class="footer__logo--left"
         src="./assets/coffee-beans-logo-and-footer.svg"
         alt="coffeebeanfooter"
       />
@@ -167,7 +165,7 @@
         /></a>
       </div>
       <img
-        class="footercoffeebean--right"
+        class="footer__logo--right"
         src="./assets/coffee-beans-logo-and-footer.svg"
         alt="coffeebeanfooter"
       />

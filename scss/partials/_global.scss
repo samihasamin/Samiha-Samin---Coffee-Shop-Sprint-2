@@ -2,3 +2,44 @@ body {
   font-family: "Open Sans";
   font-weight: 400;
 }
+
+.navbar {
+  background-color: #fff0ed;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__brand {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.navbar__heading {
+  font-size: 40px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #393939;
+  display: inline-block;
+}
+
+.navbar__list ul {
+  margin-right: 0.9375rem;
+  padding: 1.25rem 1.25rem;
+  list-style-type: none;
+  display: flex;
+}
+
+.navbar__list ul li {
+  padding: 0rem 1.5rem;
+  font-size: 20px;
+}
+
+li .navbar__link--highlight {
+  color: #5bacc3;
+}

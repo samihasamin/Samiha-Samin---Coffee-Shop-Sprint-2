@@ -3,55 +3,55 @@ body {
   font-weight: 400;
 }
 
+.navbar {
+  background-color: #fff0ed;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__brand {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.navbar__heading {
+  font-size: 40px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #393939;
+  display: inline-block;
+}
+
+.navbar__list ul {
+  margin-right: 0.9375rem;
+  padding: 1.25rem 1.25rem;
+  list-style-type: none;
+  display: flex;
+}
+
+.navbar__list ul li {
+  padding: 0rem 1.5rem;
+  font-size: 20px;
+}
+
+li .navbar__link--highlight {
+  color: #5bacc3;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-.navdiv {
-  background-color: #fff0ed;
-  padding: 0;
-  width: 100%;
-}
-
-.navbar {
-  background-color: #fff0ed;
-  padding: 0;
-  width: 100%;
-  height: 100px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.navdiv__logo {
-  margin-left: 20px;
-}
-
-.navdiv a {
-  text-decoration: none;
-  color: #393939;
-  display: inline-block;
-}
-
-.navdiv__heading {
-  font-size: 50px;
-}
-
-.navlist li {
-  margin-right: 0.9375rem;
-  padding: 1.25rem 1.25rem;
-  display: inline-block;
-  font-size: 20px;
-}
-
-.navdiv__shop-now--blue {
-  color: #5bacc3;
-}
-
-#titlebox,
-#titlebox > h1 {
+.herosection__title,
+.herosection__title > h1 {
   width: 18.75rem;
   height: 12.5rem;
   background-color: #393939;
@@ -67,7 +67,7 @@ body {
   position: relative;
 }
 
-.p-box {
+.herosection {
   background-image: url(../assets/coffee-circle.jpg);
   width: 100%;
   height: 43.75rem;
@@ -79,7 +79,7 @@ body {
   align-items: center;
 }
 
-.detailbox {
+.herosection__title--border {
   width: 300px;
   height: 200px;
   border: 5px solid #5bacc3;
@@ -164,4 +164,4 @@ h3 {
   text-align: center;
   color: #5bacc3;
   padding-bottom: 1.25rem;
-} /*# sourceMappingURL=menu.css.map */
+}/*# sourceMappingURL=menu.css.map */

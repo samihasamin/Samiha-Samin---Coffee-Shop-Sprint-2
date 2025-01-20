@@ -3,6 +3,47 @@ body {
   font-weight: 400;
 }
 
+.navbar {
+  background-color: #fff0ed;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__brand {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.navbar__heading {
+  font-size: 40px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #393939;
+  display: inline-block;
+}
+
+.navbar__list ul {
+  margin-right: 0.9375rem;
+  padding: 1.25rem 1.25rem;
+  list-style-type: none;
+  display: flex;
+}
+
+.navbar__list ul li {
+  padding: 0rem 1.5rem;
+  font-size: 20px;
+}
+
+li .navbar__link--highlight {
+  color: #5bacc3;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -34,37 +75,6 @@ a {
     transform: rotate(360deg);
   }
 }
-.navdiv {
-  background-color: #fff0ed;
-  padding: 0;
-  width: 100%;
-}
-
-.navbar {
-  background-color: #fff0ed;
-  padding: 0;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.navdiv a {
-  text-decoration: none;
-  color: #393939;
-  display: inline-block;
-}
-
-.navlist li {
-  margin-right: 0.9375rem;
-  padding: 1.25rem 1.25rem;
-  display: inline-block;
-}
-
-li .navdiv__shop-now--blue {
-  color: #5bacc3;
-}
-
 .mainnitro {
   display: flex;
   justify-content: space-between;
@@ -97,7 +107,6 @@ h1 {
   width: 11.25rem;
   padding: 20px;
   display: block;
-  margin: auto;
   position: relative;
 }
 
@@ -159,7 +168,7 @@ h1 {
   color: #393939;
 }
 
-.nitroproducts__card {
+.nitroproducts__cardgroup {
   display: flex;
   gap: 1.25rem;
   padding: 1.25rem;
@@ -169,7 +178,7 @@ h1 {
   justify-content: center;
 }
 
-.nitroproducts__card-list {
+.nitroproducts__card {
   width: 20.625rem;
   height: 27.5rem;
   margin: 1.25rem;
@@ -216,7 +225,7 @@ h3 {
   color: #393939;
 }
 
-.learnmore {
+.coffee-difference {
   display: flex;
   justify-content: space-around;
 }
@@ -289,7 +298,7 @@ h3 {
   left: -15px;
 }
 
-.discount {
+.discountcodesection {
   background-color: white;
   height: 31.25rem;
   display: flex;
@@ -298,15 +307,12 @@ h3 {
   justify-content: center;
 }
 
-.discount__banner {
+.discountcodesection__banner {
   background-color: #393939;
   color: white;
   font-size: 2.8125rem;
   font-weight: 400;
   padding: 2rem 4rem;
-}
-
-.discount__banner {
   animation: flashing-color 2.5s;
   animation-timing-function: ease-out;
   animation-iteration-count: infinite;
@@ -326,7 +332,7 @@ span {
   position: relative;
 }
 
-.footercoffeebean--left {
+.footer__logo--left {
   position: absolute;
   width: 120px;
   opacity: 25%;
@@ -334,7 +340,7 @@ span {
   left: -35px;
 }
 
-.footercoffeebean--right {
+.footer__logo--right {
   position: absolute;
   width: 120px;
   opacity: 25%;
